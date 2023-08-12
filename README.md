@@ -52,7 +52,7 @@ JUnit version 5.9.2
 - Abra el proyecto en su entorno de desarrollo preferido (por ejemplo, IntelliJ IDEA o Eclipse).
 - Verifique que tenga las dependencias necesarias en el archivo pom.xml del proyecto. Si falta alguna, asegúrese de agregarla.
 - Ejecute el siguiente comando para compilar el proyecto y descargar las dependencias de Maven:
-
+- [Instalacion de maven](https://dev.to/vanessa_corredor/instalar-manualmente-maven-en-windows-10-50pb) - configuracion maven
 ```
 mvn clean compile
 ```
