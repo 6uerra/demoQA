@@ -31,6 +31,7 @@ public class DetailBook extends Selenium {
     @FindBy(xpath= "(//button[contains(@id,'addNewRecordButton')])[2]")
     WebElement buttonAddNewRecordButton;
 
+
     public DetailBook(WebDriver driver) throws IOException {
         super(driver);
     }

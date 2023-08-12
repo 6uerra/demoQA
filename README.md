@@ -70,7 +70,7 @@ Los escenarios de pruebas se crean en el feature con lenguaje Gherkin, se conect
 🚧 **_La estructura completa del proyecto se verá así:_**
 
 ```bash
-   📦fitlearning([FitlearningAutomation])
+   📦demoQA
    ┣ 📂src
    ┃ ┣ 📂test
    ┃ ┃ ┣ 📂java

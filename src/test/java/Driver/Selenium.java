@@ -8,6 +8,7 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 
+
 import java.io.IOException;
 import java.time.Duration;
 import java.util.ArrayList;
@@ -163,9 +164,7 @@ public class Selenium {
 
     public void alertAccept() {
         try {
-            driver.switchTo().frame(0);
-            Alert alert = driver.switchTo().alert();
-            alert.accept();
+            driver.switchTo().alert().accept();
 
         } catch (NoSuchElementException | TimeoutException e) {
             LogError(e.getRawMessage());
@@ -178,6 +177,7 @@ public class Selenium {
 
         }
     }
+
 
     public String alertGetText() {
         String alertText = "";
