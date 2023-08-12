@@ -1,5 +1,5 @@
-@login
-Feature: login
+@BookStore
+Feature: Book
 
   Background: login
     Given I access demoQA
